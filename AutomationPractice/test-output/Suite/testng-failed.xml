@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="url" value="http://www.automationpractice.com"/>
+  <test name="Test">
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="url" value="http://www.automationpractice.com"/>
+    <classes>
+      <class name="testCases.Login"/>
+      <class name="testCases.Purchasing"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->
